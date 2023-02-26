@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- header -->
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+                <img src="img/logo3.png" alt="" class="main-nav__logo">
+                <ul class="main-nav__items">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="about.html" class="active">Hakkımızda</a></li>
+                    <li><a href="register.html">Kayıt</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- section a -->
+    <section id="about-a" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">HEY Taksi Nedir?</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">HEY Taksi olarak taksi arayan yolcularla, yolcu arayan taksileri bir araya getiren bir akıllı telefon uygulamasıyız.
+                Uygulamanın ötesinde büyükşehir insanı için yapılmış en iyi icatlardan biriyiz.
+                
+                HEY Taksi ile tek tuşla olduğun yere taksi çağırırsın. Gelen şoförün adını, puanını ve taksinin plakasını ekranda görürsün ve gelişini haritadan izlersin.
+                
+                Şimdiden iyi yolculuklar!</p>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2025. Tüm Hakları Saklıdır.</p>
+
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>
