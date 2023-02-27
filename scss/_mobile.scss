@@ -8,7 +8,7 @@
 
 }
 
-// Large
+// Medium Min
 @media(min-width: 768px) {
     #button_cagir {
         display: none;
@@ -16,7 +16,7 @@
 }
 
 
-// Medium
+// Medium Max
 @media(max-width: 768px) {
     #header {
         &__home {
